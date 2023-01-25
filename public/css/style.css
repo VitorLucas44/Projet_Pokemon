@@ -12,3 +12,26 @@ table.table {
     margin-left: auto;
     margin-right: auto;
 }
+body{
+    background-image: url('https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/204364595/original/86db6005cd51b4f60e71cca277f603a82cf5646a/draw-a-pixel-pokemon-battle-background.png');
+    background-size: 100%;
+    
+}
+.poke1{
+    color: white;
+    position: relative;
+    left: 380px;
+    top: 280px;
+
+}
+body, img{
+    width: 250px;
+    height: 200px;
+}
+.poke2{
+    color: green;
+    position: relative;
+    left: 880px;
+    bottom: 50px;
+
+}
