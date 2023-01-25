@@ -79,4 +79,3 @@ s2 = document.createElement('img');
 s2.src = pk2.sprite;
 document.getElementById('pk2').appendChild(s2);
 document.getElementById('hp2').innerHTML = '<p>HP: ' + pk2.hp + '/' + pk2.fullhp + '</p>';
-

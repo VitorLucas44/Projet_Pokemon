@@ -20,8 +20,8 @@ body{
 .poke1{
     color: white;
     position: relative;
-    left: 380px;
-    top: 280px;
+    left: 340px;
+    top: 370px;
 
 }
 body, img{
@@ -34,4 +34,54 @@ body, img{
     left: 880px;
     bottom: 50px;
 
+}
+.vie1{
+    position: relative;
+    left: 340px;
+    top: 370px;
+    color: white;
+}
+.vie2{
+    position: relative;
+    left: 880px;
+    top: 70px;
+    color: white;
+}
+input{
+    width: 170px;
+    height: 80px;
+    color: white;
+    background-color: rgb(156, 170, 180);
+    border-radius: 10px;
+}
+input:hover{
+    color: black;
+    background-color: white;
+}
+.move1{
+    position: relative;
+    left: 100px;
+    top: 80px;
+}
+.move2{
+    position: relative;
+    left: 180px;
+    top: 90px;
+}
+.move3{
+    position: relative;
+    bottom: 80px;
+}
+.move4{
+    position: relative;
+    bottom: 100px;
+}
+.bgmove{
+    background-color: black;
+    border: solid 2px white;
+    width: 340px;
+    height: 160px;
+    position: absolute;
+    z-index: -10;
+    left: 800px;
 }
