@@ -1,3 +1,4 @@
+// class Pokemon constructor
 class Pokemon {
     constructor(name, sprite, hp, moves) {
         this.name = name;
@@ -8,6 +9,7 @@ class Pokemon {
     }
 }
 
+//liste pokemon
 let pkmList = [
 ['Dracaufeu', 'https://www.pokepedia.fr/images/7/78/Sprite_006_XY.png', 360, [
     ['Lance flamme', 'feu', 95, 0.95],
@@ -28,3 +30,22 @@ let pkmList = [
     ['Coup de corps', 'normal', 85, 0.95]
 ]]
 ];
+
+//type de pokemon
+let typeMatch = {
+    'Dracaufeu': [
+        ['terre'],
+        ['eau', 'rock'],
+        ['feu', 'plante', 'steel']
+    ],
+    'Tortank': [
+        [''],
+        ['plante'],
+        ['feu', 'water']
+    ],
+    'Florizarre': [
+        ['poison'],
+        ['feu', 'fly', 'glace', 'steel'],
+        ['plante', 'water']
+    ],
+}
