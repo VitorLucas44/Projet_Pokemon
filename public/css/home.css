@@ -2,8 +2,12 @@ body{
     background-image: url(https://jeuxpourtous.org/wp-content/uploads/2021/08/Pokemon-Unite-confirme-sa-date-de-lancement-sur-les-appareils.png);
     background-repeat: no-repeat;
     background-size: 1600px 760px;
-    
+    font-family: "formula 1";
 }
+@font-face {
+    font-family: "formula 1";
+    src: url(../font/pokemon-ds-font.ttf);
+}    
 *, *:before, *:after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -55,13 +59,35 @@ body{
     border-radius: 50%;
     z-index: 10;
     box-shadow: 0 0 0 10px black;
-    animation: blink .5s alternate 7;
+    animation: blink .30s alternate 7;
 }
 
 a{
-    width: 100px;
-    height: 100px;
+text-decoration: none;
+position: relative;
+top: 260px;
 }
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 130px;
+}
+body h1 {
+    background-image: linear-gradient(to left, rgb(255, 0, 0), rgb(138, 50, 23), rgb(255, 72, 0), rgb(154, 205, 15), yellow, rgb(232, 112, 14), rgb(255, 17, 160));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  body a {
+    background-image: linear-gradient(to left, rgb(255, 0, 0), rgb(237, 166, 14), rgb(255, 217, 0), rgb(154, 205, 15), yellow, rgb(232, 112, 14), rgb(255, 17, 160));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
 
   /* Animation */
 @keyframes blink {
