@@ -30,25 +30,25 @@ body{
     overflow: hidden;
     box-shadow: inset -10px 10px 0 10px #ccc;
     animation: fall .25s ease-in-out,
-               shake 1.25s cubic-bezier(.36,.07,.19,.97) 3;
-  }
-  .pokeball::before,
-  .pokeball::after {
+    shake 1.25s cubic-bezier(.36,.07,.19,.97) 3;
+}
+.pokeball::before,
+.pokeball::after {
     content:"";
     position: absolute;
-  }
-  .pokeball::before {
+}
+.pokeball::before {
     background: red;
     width: 100%;
     height: 50%;
-  }
-  .pokeball::after {
+}
+.pokeball::after {
     top: calc(50% - 10px);
     width: 100%;
     height: 20px;
     background: #000;
-  }
-  .pokeball__button {
+}
+.pokeball__button {
     position: absolute;
     top: calc(50% - 30px);
     left: calc(50% - 30px);
@@ -80,14 +80,14 @@ body h1 {
     -moz-background-clip: text;
     background-clip: text;
     color: transparent;
-  }
-  body a {
+}
+body a {
     background-image: linear-gradient(to left, rgb(255, 0, 0), rgb(237, 166, 14), rgb(255, 217, 0), rgb(154, 205, 15), yellow, rgb(232, 112, 14), rgb(255, 17, 160));
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
     color: transparent;
-  }
+}
 
   /* Animation */
 @keyframes blink {
