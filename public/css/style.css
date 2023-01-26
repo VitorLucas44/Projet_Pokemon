@@ -30,14 +30,16 @@ body, img{
 .vie1{
     position: relative;
     left: 390px;
-    top: 330px;
+    top: 300px;
     color: white;
+    font-size: 25px;
 }
 .vie2{
     position: relative;
     left: 920px;
     top: 60px;
     color: white;
+    font-size: 25px;
 }
 input{
     width: 150px;
@@ -80,7 +82,7 @@ input:hover{
     height: 200px;
     position: absolute;
     z-index: -10;
-    left: 940px;
+    left: 1050px;
     bottom: 10px;
     border-radius: 10px;
 }
@@ -89,33 +91,57 @@ input:hover{
     height: 30px;
     background-color: green;
     position: relative;
-    left: 270px;
-    bottom: 120px;
+    left: 350px;
+    bottom: 190px;
 }
 .degat2{
     width: 350px;
     height: 30px;
     background-color: green;
-    background-color: green;
     position: relative;
-    left: 800px;
-    bottom: 400px;
+    left: 860px;
+    bottom: 450px;
 }
 .noir{
-    width: 370px;
+    width: 272px;
     height: 40px;
     background-color: black;
     position: relative;
-    left: 790px;
-    bottom: 365px;
+    left: 850px;
+    bottom: 415px;
     z-index: -10;
 }
 .noir2{
-    width: 370px;
+    width: 272px;
     height: 40px;
     background-color: black;
     position: relative;
-    left: 260px;
-    bottom: 225px;
+    left: 340px;
+    bottom: 295px;
     z-index: -10;
+}
+.texte{
+    color: white;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+}
+.bg-text{
+    position: relative;
+    left: 780px;
+    color: aliceblue;
+    background-color: black;
+    width: 250px;
+    top: 100px;
+    height: 60px;
+    border-radius: 10px;
+    border: solid 2px white;
+}
+#pokemon-select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+
 }

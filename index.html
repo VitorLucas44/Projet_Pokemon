@@ -6,13 +6,21 @@
     <link rel="stylesheet" href="./public/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon Combat</title>
+    <audio src="./public/font/pokemonbatt_d4707d3e5343830.mp3" autoplay></audio>
 </head>
 <body>
+    <iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+    <audio id="player" autoplay loop>
+        <source src="./public/font/pokemon-ds-font.ttf" type="audio/mp3">
+    </audio>
+    <div id="pokemon-select"></div>
     <div class="vie1" id='hp1'></div>
     <div class="vie2" id='hp2'></div>
     <div class="poke1" id='pk1'></div>
     <div class="poke2" id='pk2'></div>
-    <div colspan='2' id='comment'></div>
+    <div class="bg-text">
+        <div class="texte" colspan='2' id='comment'></div>
+    </div>
     <div class="degat" id="hp-bar"></div>
     <div class="noir"></div>
     <div class="degat2" id="hp-bar2"></div>
